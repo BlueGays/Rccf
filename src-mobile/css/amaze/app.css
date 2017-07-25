@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    font-size: 10px;
+    height: auto !important;
+    /*overflow: scroll !important;*/
+}
+
+ul {
+    width: 100%;
+    padding-left: 0 !important;
+    list-style: none;
+}
+
+body {
+    position: relative;
+    height: auto !important;
+    font-family: Helvetica, Tahoma, Arial, Hiragino Sans GB, \\51AC\9752\9ED1\4F53, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STXihei, \\534E\6587\7EC6\9ED1, SimSun, \\5B8B\4F53, Heiti, \\9ED1\4F53, sans-serif;
+    max-width: 480px;
+    min-width: 320px;
+    background: #ffffff !important;
+    margin: 0 auto;
+    line-height: 1;
+    /*overflow: scroll !important;*/
+}
+div{
+    display: block;
+}
+
+.loan-item{
+    border: #b3eef8 solid 1px ;
+    border-bottom: solid 2px grey;
+    margin-top: 0.5em;
+
+}
+.loan-name{
+    font-size: 14px;
+    margin: 1em 0 1em 1em;
+}
+.loan-info{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 12px;
+    color: #838b6b;
+}
+.am-g .am-u-sm-4 small{
+    font-size: 14px;
+}
