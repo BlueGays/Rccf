@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    font-size: 10px;
+    height: auto !important;
+    overflow: scroll !important;
+}
+
+ul {
+    width: 100%;
+    padding-left: 0 !important;
+    list-style: none;
+}
+
+body {
+    position: relative;
+    height: auto !important;
+    font-family: Helvetica, Tahoma, Arial, Hiragino Sans GB, \\51AC\9752\9ED1\4F53, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STXihei, \\534E\6587\7EC6\9ED1, SimSun, \\5B8B\4F53, Heiti, \\9ED1\4F53, sans-serif;
+    background: #090723 !important;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    text-align: center;
+}
+.maindiv{
+    margin-top: 10%;
+}
+.formdiv{
+    margin-top: 40px;
+}

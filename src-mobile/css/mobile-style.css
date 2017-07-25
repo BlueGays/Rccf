@@ -21,7 +21,7 @@ body {
     font-family: Helvetica, Tahoma, Arial, Hiragino Sans GB, \\51AC\9752\9ED1\4F53, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STXihei, \\534E\6587\7EC6\9ED1, SimSun, \\5B8B\4F53, Heiti, \\9ED1\4F53, sans-serif;
     max-width: 480px;
     min-width: 320px;
-    background: #e9e9e9 !important;
+    background: #ffffff !important;
     margin: 0 auto;
     line-height: 1;
     overflow: scroll !important;
@@ -102,7 +102,7 @@ div{
     padding: 0 20px;
     border: 0 none;
     outline: none;
-    background:  url("/rccf/src/images/Drop.png") no-repeat scroll #ffffff;
+    background:  url("/rccf/src-mobile/images/Drop.png") no-repeat scroll #ffffff;
     background-position: 95%;
     background-size: 5%;
     align-items: center;

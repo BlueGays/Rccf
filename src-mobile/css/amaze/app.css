@@ -8,7 +8,7 @@
 html {
     font-size: 10px;
     height: auto !important;
-    /*overflow: scroll !important;*/
+    overflow: scroll !important;
 }
 
 ul {
