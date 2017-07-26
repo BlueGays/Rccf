@@ -19,12 +19,13 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/overflow.css">
 </head>
-<body class="am-scrollable-vertical am-text-center">
+<body class="am-scrollable-vertical am-text-center totop">
     <div class="am-container">
-        <header class="am-margin-vertical">
-            <h3>融成财富
+        <header class="am-margin-vertical ">
+            <h2>
+                <strong>融成财富</strong>
                 <small>一站式借贷金融信息服务平台</small>
-            </h3>
+            </h2>
         </header>
         <div class="am-g">
             <div class="am-u-sm-4">
@@ -40,15 +41,24 @@
             <!--TODO 图标出不来的问题-->
             <form class="am-form">
                 <div class="am-form-group am-form-icon">
-                    <i class="am-icon-calendar"></i>
-                    <input type="text" class="am-form-field" placeholder="请输入您的姓名" required>
+                    <i class="am-icon-male"></i>
+                    <input type="text" class="am-form-field am-radius" placeholder="请输入您的姓名" required>
                 </div>
                 <div class="am-form-group am-form-icon">
                     <i class="am-icon-user"></i>
-                    <input type="tel" class="am-form-field" placeholder="请输入您的手机号" required>
+                    <input type="tel" class="am-form-field am-radius" placeholder="请输入您的手机号" required>
+                </div>
+                <div class="am-form-group am-form-icon am-g">
+                    <div class="am-u-sm-8 nopadding">
+                        <i class="am-icon"></i>
+                        <input type="text" class="am-form-field am-radius match-parent" placeholder="请输入手机验证码" required>
+                    </div>
+                    <div class="am-u-sm-4 nopadding">
+                        <a class="am-btn am-btn-secondary am-margin-right-0 match-parent">获取验证码</a>
+                    </div>
                 </div>
                 <div class="am-form-group">
-                    <button type="button" class="am-btn am-btn-warning am-btn-block am-round">立即申请</button>
+                    <button type="submit" class="am-btn am-btn-warning am-btn-block am-round">立即申请</button>
                 </div>
             </form>
         </div>
