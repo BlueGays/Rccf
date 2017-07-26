@@ -1,4 +1,69 @@
-.am-u-sm-2 img{
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.am-container {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    max-width: 1000px;
+}
+
+@media only screen and (min-width:641px) {
+    .am-container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+body {
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei",
+    FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB",
+    "Hiragino Sans GB W3", Arial, sans-serif;
+    background-color: #EEA91F;
+    color: #FDFDFD;
+}
+
+.am-u-sm-2 img {
     width: 30px;
     height: 30px;
+}
+.am-margin-top{
+    margin-top: 30%;
+}
+/*.am-u-sm-4{*/
+    /*height: 100%;*/
+/*}*/
+
+.am-u-sm-3 img {
+    width: 80%;
+    height: 80%;
+}
+
+.imginfo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10000;
+    background-color: rgba(0,0,0,0.85);
+}
+.imginfo img{
+    width: 80%;
+    height: 300px;
+    margin-top: 25%;
+}
+.bgp{
+    background-color:rgba(0,0,0,0);
+
+}
+.bgp img{
+    width: 25px;
+    height: 25px;
 }
