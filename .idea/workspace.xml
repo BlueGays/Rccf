@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c462d6c-9ae6-4534-9eb8-1fc0e18ec501" name="Default" comment="登录页面更新">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/期限长.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/种类多.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/速度快.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/金融信贷.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/金融成功.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/金融方案.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/金融服务.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/金融贷款.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/weixinad/额度高.png" />
+    <list default="true" id="4c462d6c-9ae6-4534-9eb8-1fc0e18ec501" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/css/overflow.css" afterPath="$PROJECT_DIR$/src-mobile/css/overflow.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/login1.html" afterPath="$PROJECT_DIR$/src-mobile/login1.html" />
@@ -28,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src-mobile/login1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="86" column="33" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="33" />
+            <state relative-caret-position="250">
+              <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -40,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overflow.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="overflow.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src-mobile/css/overflow.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="457">
-              <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+              <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -166,8 +157,8 @@
         <option value="$PROJECT_DIR$/src-mobile/success.html" />
         <option value="$PROJECT_DIR$/src-mobile/smsrecord.html" />
         <option value="$PROJECT_DIR$/src-mobile/login.html" />
-        <option value="$PROJECT_DIR$/src-mobile/login1.html" />
         <option value="$PROJECT_DIR$/src-mobile/css/overflow.css" />
+        <option value="$PROJECT_DIR$/src-mobile/login1.html" />
       </list>
     </option>
   </component>
@@ -736,7 +727,7 @@
       <workItem from="1501035611348" duration="7854000" />
       <workItem from="1501043535271" duration="12533000" />
       <workItem from="1501062690088" duration="6233000" />
-      <workItem from="1501122414251" duration="4293000" />
+      <workItem from="1501122414251" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1500955730475</created>
@@ -836,11 +827,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501067140110</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="登录页面更新">
+      <created>1501127449816</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1501127449816</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142871000" />
+    <option name="totallyTimeSpent" value="145474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,10 +894,10 @@
     <MESSAGE value="commit" />
     <MESSAGE value="test" />
     <MESSAGE value="mobile" />
-    <MESSAGE value="登录页面更新" />
     <MESSAGE value="登录页面更新---" />
     <MESSAGE value="登录页面更新second" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录页面更新second" />
+    <MESSAGE value="登录页面更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录页面更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1154,13 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-mobile/css/mobile-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="104" column="23" lean-forward="false" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src-mobile/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1180,6 +1171,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,6 +1206,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="5060" column="1" lean-forward="true" selection-start-line="5060" selection-start-column="1" selection-end-line="5060" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,13 +1214,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="5080" column="1" lean-forward="false" selection-start-line="5080" selection-start-column="1" selection-end-line="5080" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-mobile/index-mobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,21 +1223,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-mobile/login1.html">
+    <entry file="file://$PROJECT_DIR$/src-mobile/css/mobile-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="86" column="33" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2757">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-mobile/index-mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-mobile/css/overflow.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
-          <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-mobile/login1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
