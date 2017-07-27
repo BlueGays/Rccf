@@ -16,59 +16,41 @@
     <link rel="stylesheet" href="css/amaze/amazeui.css"/>
     <link rel="stylesheet" href="css/amaze/admin.css"/>
     <link rel="stylesheet" href="css/amaze/amazeui.flat.css"/>
-    <link rel="stylesheet" href="css/overflow.css">
+    <link rel="stylesheet" href="css/smsrecord.css"/>
 </head>
 <body class="am-scrollable-horizontal">
     <div class="am-g am-margin-vertical">
         <div class="am-u-sm-2 am-text-right">
             <img src="images/logo.png">
         </div>
-        <div class="am-u-sm-4"><strong>短信申请记录</strong></div>
-        <div class="am-u-sm-6"></div>
+        <div class="am-u-sm-10"><h1>融成财富-微信公众平台短信申请记录</h1></div>
     </div>
     <div>
-        <table class="am-table am-scrollable-horizontal am-text-nowrap">
+        <table class="am-table am-scrollable-horizontal am-text-nowrap am-table-bordered">
             <thead>
             <tr>
-                <th>网站名称</th>
-                <th>网址</th>
-                <th>创建时间</th>
-                <th>创建时间</th>
+                <th>姓名</th>
+                <th>手机号码</th>
+                <th>申请时间</th>
+                <th>状态</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>Amaze UI</td>
-                <td>http://amazeui.org</td>
-                <td>2012-10-01</td>
-                <td>2012-10-01</td>
-            </tr>
-            <tr>
-                <td>Amaze UI</td>
-                <td>http://amazeui.org</td>
-                <td>2012-10-01</td>
-                <td>2012-10-01</td>
-            </tr>
-            <tr class="am-active">
-                <td>Amaze UI(Active)</td>
-                <td>http://amazeui.org</td>
-                <td>2012-10-01</td>
-                <td>2012-10-01</td>
-            </tr>
-            <tr>
-                <td>Amaze UI</td>
-                <td>http://amazeui.org</td>
-                <td>2012-10-01</td>
-                <td>2012-10-01</td>
-            </tr>
-            <tr>
-                <td>Amaze UI</td>
-                <td>http://amazeui.org</td>
-                <td>2012-10-01</td>
-                <td>2012-10-01</td>
+                <td>张三</td>
+                <td>18233333333</td>
+                <td>2017/7/27 9:00:22</td>
+                <td>
+                    <button class="info-status" onclick="handle();">未处理</button>
+                </td>
             </tr>
             </tbody>
         </table>
     </div>
+    <script>
+        function handle() {
+            $(".info-status").parent.addClass("am-warning");
+        }
+    </script>
 </body>
 </html>

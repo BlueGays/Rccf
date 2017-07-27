@@ -6,7 +6,7 @@
           content="width = device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,initial-scale=1"/>
     <meta name="format-detection" content="telephone=no,email=no">
     <title>RCCF-融成财富</title>
-    <script type="text/javascript" src="js/jquery/jquery-1.10.2.min.js"></script>
+    <script type="application/javascript" src="js/jquery/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/amaze/amazeui.ie8polyfill.js"></script>
     <script type="text/javascript" src="js/amaze/amazeui.js"></script>
     <script type="text/javascript" src="js/amaze/amazeui.widgets.helper.js"></script>
@@ -29,7 +29,7 @@
         </header>
         <div class="am-g">
             <div class="am-u-sm-4">
-                <img src="images/logo.png"/>
+                <img src="images/dollar.png"/>
             </div>
             <div class="am-u-sm-8">
                 <p class="am-text-lg">抵押、信用产品</p>
@@ -39,10 +39,10 @@
         </div>
         <div class="am-margin-top">
             <!--TODO 图标出不来的问题-->
-            <form class="am-form">
+            <div class="am-form">
                 <div class="am-form-group am-form-icon">
                     <i class="am-icon-user"></i>
-                    <input type="text" class="am-form-field am-radius " placeholder="请输入您的姓名" required>
+                    <input type="text" class="am-form-field am-radius " placeholder="请输入您的姓名">
                 </div>
                 <div class="am-form-group am-form-icon">
                     <i class="am-icon-phone-square"></i>
@@ -54,15 +54,15 @@
                         <input type="text" class="am-form-field am-radius match-parent" placeholder="请输入手机验证码" required>
                     </div>
                     <div class="am-u-sm-5 nopadding">
-                        <a class="am-btn am-btn-secondary am-margin-right-0 match-parent">获取验证码</a>
+                        <a class="am-btn am-btn-warning am-margin-right-0 match-parent">获取验证码</a>
                     </div>
                 </div>
                 <div class="am-form-group">
                     <button type="submit" class="am-btn am-btn-warning am-btn-block am-round">立即申请</button>
                 </div>
-            </form>
+            </div>
         </div>
-        <div>
+        <div style="display: none">
             <small>登录即表示同意<a class="am-text-warning" href="#">融成财富服务协议</a></small>
         </div>
         <div class="am-g am-margin-top-xl">

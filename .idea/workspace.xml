@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c462d6c-9ae6-4534-9eb8-1fc0e18ec501" name="Default" comment="">
+    <list default="true" id="4c462d6c-9ae6-4534-9eb8-1fc0e18ec501" name="Default" comment="登录页面更新">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/images/dollar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/css/smsrecord.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/css/overflow.css" afterPath="$PROJECT_DIR$/src-mobile/css/overflow.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/login1.html" afterPath="$PROJECT_DIR$/src-mobile/login1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/smsrecord.html" afterPath="$PROJECT_DIR$/src-mobile/smsrecord.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,14 +22,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src-mobile/login1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+            <state relative-caret-position="543">
+              <caret line="60" column="92" lean-forward="false" selection-start-line="60" selection-start-column="92" selection-end-line="60" selection-end-column="92" />
               <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amazeui.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-mobile/css/amaze/amazeui.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="2056" column="10" lean-forward="false" selection-start-line="2056" selection-start-column="10" selection-end-line="2056" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -34,8 +48,28 @@
       <file leaf-file-name="overflow.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src-mobile/css/overflow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+            <state relative-caret-position="357">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="2" selection-end-line="89" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smsrecord.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src-mobile/smsrecord.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smsrecord.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-mobile/css/smsrecord.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -47,8 +81,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -155,10 +189,11 @@
         <option value="$PROJECT_DIR$/src-mobile/index-mobile.html" />
         <option value="$PROJECT_DIR$/src-mobile/css/mobile-style.css" />
         <option value="$PROJECT_DIR$/src-mobile/success.html" />
-        <option value="$PROJECT_DIR$/src-mobile/smsrecord.html" />
         <option value="$PROJECT_DIR$/src-mobile/login.html" />
-        <option value="$PROJECT_DIR$/src-mobile/css/overflow.css" />
         <option value="$PROJECT_DIR$/src-mobile/login1.html" />
+        <option value="$PROJECT_DIR$/src-mobile/css/overflow.css" />
+        <option value="$PROJECT_DIR$/src-mobile/css/smsrecord.css" />
+        <option value="$PROJECT_DIR$/src-mobile/smsrecord.html" />
       </list>
     </option>
   </component>
@@ -242,32 +277,6 @@
               <item name="src-mobile" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Rccf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rccf" type="462c0819:PsiDirectoryNode" />
-              <item name="src-mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="amaze" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rccf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rccf" type="462c0819:PsiDirectoryNode" />
-              <item name="src-mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rccf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rccf" type="462c0819:PsiDirectoryNode" />
-              <item name="src-mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rccf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rccf" type="462c0819:PsiDirectoryNode" />
-              <item name="src-mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="weixinad" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -298,8 +307,8 @@
       <recent name="D:\Documents\GitHub\blue\Rccf\src-mobile\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\GitHub\blue\Rccf\src-mobile\images\weixinad" />
       <recent name="D:\Documents\GitHub\blue\Rccf\src-mobile\images" />
+      <recent name="D:\Documents\GitHub\blue\Rccf\src-mobile\images\weixinad" />
       <recent name="D:\Documents\GitHub\blue\Rccf\src-mobile" />
       <recent name="D:\Documents\GitHub\blue\Rccf\src-mobile\css" />
       <recent name="D:\Documents\GitHub\blue\Rccf\src-mobile\css\amaze" />
@@ -727,7 +736,7 @@
       <workItem from="1501035611348" duration="7854000" />
       <workItem from="1501043535271" duration="12533000" />
       <workItem from="1501062690088" duration="6233000" />
-      <workItem from="1501122414251" duration="6896000" />
+      <workItem from="1501122414251" duration="13857000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1500955730475</created>
@@ -834,11 +843,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501127449816</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="登录页面更新">
+      <created>1501136027540</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1501136027540</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145474000" />
+    <option name="totallyTimeSpent" value="152435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -908,20 +924,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/css/my-bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28800">
-          <caret line="1152" column="0" lean-forward="true" selection-start-line="1152" selection-start-column="0" selection-end-line="1152" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/jquery.stepy.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/bootstrap-fileupload.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1145,20 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-mobile/css/amaze/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-mobile/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1185,29 +1173,6 @@
     <entry file="file://$PROJECT_DIR$/src-mobile/images/blog-wide-img.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-mobile/smsrecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-mobile/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-mobile/css/amaze/amazeui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="5060" column="1" lean-forward="true" selection-start-line="5060" selection-start-column="1" selection-end-line="5060" selection-end-column="1" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-mobile/css/amaze/amazeui.flat.css">
@@ -1241,19 +1206,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src-mobile/css/overflow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        <state relative-caret-position="357">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="2" selection-end-line="89" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-mobile/css/amaze/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-mobile/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-mobile/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-mobile/css/amaze/amazeui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="2056" column="10" lean-forward="false" selection-start-line="2056" selection-start-column="10" selection-end-line="2056" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-mobile/login1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        <state relative-caret-position="543">
+          <caret line="60" column="92" lean-forward="false" selection-start-line="60" selection-start-column="92" selection-end-line="60" selection-end-column="92" />
           <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-mobile/css/smsrecord.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-mobile/smsrecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
