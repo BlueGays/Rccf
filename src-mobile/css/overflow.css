@@ -38,7 +38,7 @@ body {
     height: 30px;
 }
 .am-margin-top{
-    margin-top: 30%;
+    margin-top: 10%;
 }
 
 .am-u-sm-3 img {
@@ -73,4 +73,7 @@ body {
  }
 .nopadding{
     padding: 0 !important;
+}
+.am-u-sm-3 span{
+    font-size: 12px;
 }
