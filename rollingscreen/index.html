@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-cn" class="no-js">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Type">
-    <meta content="text/html; charset=utf-8">
+    <!--<meta charset=UTF-8">-->
+    <!--<meta http-equiv="Content-Type">-->
+    <!--<meta content="text/html; charset=utf-8">-->
+    <!--<meta />-->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>融成财富-融成金服</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
@@ -13,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/page.css">
+    <link rel="stylesheet" href="css/default.css"/>
+    <link rel="stylesheet" href="css/reveal-it.css"/>
 </head>
 <body>
 
@@ -41,8 +45,17 @@
     </div>
     <img src="img/icon_up.png" alt="" class="arrow-up pt-page-moveIconUp"></div>
 <div id="page-content">
-    <div class="page page-1 page-current"></div>
-    <div class="page page-2 hide"></div>
+    <div class="page page-1 page-current">
+        <div class="type-js headline" style="position: relative; display: inline-block;margin-top: 40%">
+            <div class="cursor"></div>
+            <h1 class="text-js" style="opacity: 1;">您好，欢迎您来到融成财富！</h1>
+        </div>
+    </div>
+    <div class="page page-2 hide">
+        <div class="box1">
+            <h3>Lorem ipsum dolor sit amet, ne mel vero impetus voluptatibus</h3>
+        </div>
+    </div>
     <div class="page page-3 hide"></div>
     <div class="page page-4 hide"></div>
     <div class="page page-5 hide"></div>
@@ -55,13 +68,17 @@
 <div id="audio_btn" class="rotate">
     <audio loop src="i/bgm.mp3" id="media" autoplay="autoplay" preload="perload"></audio>
 </div>
-<script type="text/javascript" src="js/zepto.min.js"></script>
+<!--<script type="text/javascript" src="js/zepto.min.js"></script>-->
 <script type="text/javascript" src="js/touch.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/reveal-it.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 <script>
+    var  jq = $.noConflict();
     var x = document.getElementById("media");
     $(function () {
+
         $("#audio_btn").click(function () {
             $(this).toggleClass("rotate"); //控制音乐图标 自转或暂停(删除旋转属性)
 
@@ -70,8 +87,26 @@
             } else {
                 x.pause();
             }
-        })
+        });
     });
+    $(document).ready(function () {
+        function c(pageno) {
+            if(pageno == ".page-1"){
+                autoType(".type-js",200);
+            }else if(pageno == ".page-2"){
+                var options1 = {
+                    id: 'box1'
+                };
+                jq('.box1').initReveal(options1);
+
+            }
+            console.log(pageno);
+        }
+
+        dosome(c);
+
+    })
+
 </script>
 </body>
 </html>

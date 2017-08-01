@@ -1,4 +1,5 @@
-(function(){
+function dosome(callback){
+
 
 //配置
 var config = {
@@ -12,13 +13,13 @@ var config = {
 //loading
 window.onload = function(){
 	$('#loading').hide();
-}
+};
 
 //分享
 
 $('#js-btn-share').bind('tap',function(){
 	$('#js-share').show();
-})
+});
 $('#js-share').bind('tap',function(){
 	$(this).hide();
 });
@@ -34,6 +35,8 @@ document.addEventListener('touchmove',
 	function(event){event.preventDefault();},
 	false);
 
+
+
 $(document).swipeUp(function(){
 	if (isAnimating) return;
 	if (pageIndex < pageTotal) { 
@@ -41,7 +44,7 @@ $(document).swipeUp(function(){
 	}else{
 		pageIndex=1;
 	};
-	pageMove(towards.up);
+	pageMove(towards.up,callback);
 })
 
 $(document).swipeDown(function(){
@@ -51,10 +54,10 @@ $(document).swipeDown(function(){
 	}else{
 		pageIndex=pageTotal;
 	};
-	pageMove(towards.down);	
-})
+	pageMove(towards.down,callback);
+});
 
-function pageMove(tw){
+function pageMove(tw,callback){
 	var lastPage;
 	if(tw=='1'){
 		if(pageIndex==1){
@@ -73,7 +76,7 @@ function pageMove(tw){
 	}
 
 	var nowPage = ".page-"+pageIndex;
-	
+    callback(nowPage);
 	switch(tw) {
 		case towards.up:
 			outClass = 'pt-page-moveToTop';
@@ -104,4 +107,39 @@ function pageMove(tw){
 	},600);
 }
 
-})();
+};
+
+function autoType(elementClass, typingSpeed){
+    var thhis = $(elementClass);
+    thhis.css({
+        "position": "relative",
+        "display": "inline-block"
+    });
+    thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+    thhis = thhis.find(".text-js");
+    var text = thhis.text().trim().split('');
+    var amntOfChars = text.length;
+    var newString = "";
+    thhis.text("|");
+    setTimeout(function(){
+        thhis.css("opacity",1);
+        thhis.prev().removeAttr("style");
+        thhis.text("");
+        for(var i = 0; i < amntOfChars; i++){
+            (function(i,char){
+                setTimeout(function() {
+                    newString += char;
+                    thhis.text(newString);
+                },i*typingSpeed);
+            })(i+1,text[i]);
+        }
+    },1500);
+}
+$(document).ready(function(){
+    // Now to start autoTyping just call the autoType function with the
+    // class of outer div
+    // The second paramter is the speed between each letter is typed.
+    autoType(".type-js",200);
+
+
+});
