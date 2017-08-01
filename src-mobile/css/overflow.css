@@ -32,6 +32,11 @@ body {
 .totop {
     /*background-image:-webkit-linear-gradient(to bottom, #FC8F56, #EEA91F);*/
     background-image:linear-gradient(to bottom,#FC8F56,#EEA91F);
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin:0 auto;
+    max-width: 480px;
+
 }
 
 .am-u-sm-2 img {
@@ -84,6 +89,9 @@ body {
 }
 i{
     color: #C8C8C8;
+}
+.am-margin-top{
+    margin-top: 20%;
 }
 /*.bgcolor{*/
   /*background-color: #d85e0b ;*/
