@@ -31,13 +31,7 @@ var pageIndex = 1,
 
 //禁用手机默认的触屏滚动行为
 document.addEventListener('touchmove',
-	function(event){
-		if(event.cancelable){
-			if(!event.defaultPrevented){
-				event.preventDefault();
-			}
-		}
-	 },
+	function(event){event.preventDefault();},
 	false);
 
 $(document).swipeUp(function(){

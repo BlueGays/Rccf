@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c462d6c-9ae6-4534-9eb8-1fc0e18ec501" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/i/bgm.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/360度旋转.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/btn_joinus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/btn_weixin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/img/icon_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/css/animations.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/css/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/css/page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/js/touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollingscreen/js/zepto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src-mobile/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/music.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/css/overflow.css" afterPath="$PROJECT_DIR$/src-mobile/css/overflow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/js/demo.js" afterPath="$PROJECT_DIR$/src-mobile/js/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/js/jquery/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/src-mobile/js/jquery/jquery-1.10.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/login1.html" afterPath="$PROJECT_DIR$/src-mobile/login1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-mobile/smsrecord.html" afterPath="$PROJECT_DIR$/src-mobile/smsrecord.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/advanced-datatable/js/jquery.js" afterPath="$PROJECT_DIR$/src/js/advanced-datatable/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/jquery-ui-1.10.3.min.js" afterPath="$PROJECT_DIR$/src/js/jquery-ui-1.10.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rollingscreen/js/index.js" afterPath="$PROJECT_DIR$/rollingscreen/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rollingscreen/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+            <state relative-caret-position="468">
+              <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -76,7 +43,7 @@
       <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rollingscreen/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="855">
               <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
               <folding />
             </state>
@@ -87,6 +54,16 @@
         <entry file="file://$PROJECT_DIR$/rollingscreen/img/360度旋转.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rollingscreen/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -209,10 +186,10 @@
         <option value="$PROJECT_DIR$/rolling.html" />
         <option value="$PROJECT_DIR$/rollingscreen/js/zepto.min.js" />
         <option value="$PROJECT_DIR$/rollingscreen/js/touch.js" />
-        <option value="$PROJECT_DIR$/rollingscreen/js/index.js" />
         <option value="$PROJECT_DIR$/src/js/jquery-ui-1.10.3.min.js" />
         <option value="$PROJECT_DIR$/rollingscreen/css/reset.css" />
         <option value="$PROJECT_DIR$/rollingscreen/index.html" />
+        <option value="$PROJECT_DIR$/rollingscreen/js/index.js" />
       </list>
     </option>
   </component>
@@ -781,7 +758,7 @@
       <workItem from="1501062690088" duration="6233000" />
       <workItem from="1501122414251" duration="19959000" />
       <workItem from="1501208217191" duration="12794000" />
-      <workItem from="1501553525366" duration="10994000" />
+      <workItem from="1501553525366" duration="11200000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1500955730475</created>
@@ -930,11 +907,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501212898273</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="滑动图和音乐播放暂停">
+      <created>1501578769099</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1501578769099</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182325000" />
+    <option name="totallyTimeSpent" value="182531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1025,7 +1009,8 @@
     <MESSAGE value="登录页面更新second" />
     <MESSAGE value="登录页面更新" />
     <MESSAGE value="短信申请记录" />
-    <option name="LAST_COMMIT_MESSAGE" value="短信申请记录" />
+    <MESSAGE value="滑动图和音乐播放暂停" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑动图和音乐播放暂停" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1158,6 +1143,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
           <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,31 +1359,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rollingscreen/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rollingscreen/js/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="1287" column="15" lean-forward="false" selection-start-line="1287" selection-start-column="8" selection-end-line="1287" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rollingscreen/img/360度旋转.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rollingscreen/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1410,6 +1375,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rollingscreen/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rollingscreen/img/360度旋转.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/flot-chart/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1420,11 +1398,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rollingscreen/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+        <state relative-caret-position="468">
+          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rollingscreen/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
