@@ -31,8 +31,8 @@
       <file leaf-file-name="resetpwd.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src-mobile/resetpwd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="207">
+              <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -709,7 +709,7 @@
       <workItem from="1501553525366" duration="21368000" />
       <workItem from="1501639582523" duration="294000" />
       <workItem from="1501665978371" duration="2459000" />
-      <workItem from="1501668483510" duration="38000" />
+      <workItem from="1501668483510" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1500955730475</created>
@@ -879,11 +879,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501668225546</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="修改密码（1）">
+      <created>1501668536231</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1501668536231</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195490000" />
+    <option name="totallyTimeSpent" value="195708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -978,7 +985,8 @@
     <MESSAGE value="滑动图和音乐播放暂停（小修改）" />
     <MESSAGE value="Jq" />
     <MESSAGE value="修改密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改密码" />
+    <MESSAGE value="修改密码（1）" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改密码（1）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1276,6 +1284,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
           <caret line="2884" column="13" lean-forward="true" selection-start-line="2884" selection-start-column="13" selection-end-line="2884" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,8 +1306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src-mobile/resetpwd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        <state relative-caret-position="207">
+          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
           <folding />
         </state>
       </provider>
