@@ -709,7 +709,7 @@
       <workItem from="1501553525366" duration="21368000" />
       <workItem from="1501639582523" duration="294000" />
       <workItem from="1501665978371" duration="2459000" />
-      <workItem from="1501668483510" duration="256000" />
+      <workItem from="1501668483510" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1500955730475</created>
@@ -886,11 +886,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501668536231</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="修改密码（2）">
+      <created>1501668748197</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1501668748197</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195708000" />
+    <option name="totallyTimeSpent" value="195719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +993,8 @@
     <MESSAGE value="Jq" />
     <MESSAGE value="修改密码" />
     <MESSAGE value="修改密码（1）" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改密码（1）" />
+    <MESSAGE value="修改密码（2）" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改密码（2）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
